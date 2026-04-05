@@ -1,3 +1,5 @@
-const audio = new Audio('soviet-anthem.mp3');
-audio.loop = true;
-audio.play();
+function playAudio() {
+  const audio = new Audio('anthem.mp3');
+  audio.loop = true;
+  audio.play();
+}
