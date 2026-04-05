@@ -1,6 +1,12 @@
+body {
+  background-image: url('USSRFLAG!.png');
+  background-size: cover;
+  
+  background-position: center;
+  background-repeat: no-repeat;
 
-body{
-  background-color: black;
-  justify-content: center;
-  align-items: center;
+  background-attachment: fixed;
+
+  min-height: 100vh;
+  margin: 0;
 }
