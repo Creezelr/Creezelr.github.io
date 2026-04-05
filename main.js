@@ -1,4 +1,4 @@
-var audioToPlay = document.getElementById("audioFile");
+var audioToPlay = document.getElementById("ussrAudio");
 
 window.onload = function() {
     audioToPlay.loop = true;
