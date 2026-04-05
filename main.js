@@ -4,5 +4,4 @@ const button = document.getElementById("playBtn");
 
 button.addEventListener("click", () => {
   audio.play();
-  audio.loop = true;
 });
