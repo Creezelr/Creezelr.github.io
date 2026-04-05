@@ -1,4 +1,5 @@
 body {
+  background-color: black;
   background-image: url('USSRFLAG!.png');
 
   image-rendering: -webkit-optimize-contrast;
