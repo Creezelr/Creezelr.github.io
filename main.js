@@ -1,5 +1,5 @@
-function playAudio() {
-  const audio = new Audio('anthem.mp3');
-  audio.loop = true;
-  audio.play();
+var audioToPlay = document.getElementById("audioFile");
+
+window.onload = function() {
+    audioToPlay.play()
 }
