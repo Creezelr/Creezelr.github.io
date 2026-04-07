@@ -1,7 +1,6 @@
 
-let USSRAnthem = document.getElementById("music");
-let btn = document.getElementById("playBtn");
+let USSRAnthem = new Audio('soviet-anthem.mp3);
 
-btn.onclick = function(){
+function playAnthem(){
   USSRAnthem.play();
 }
