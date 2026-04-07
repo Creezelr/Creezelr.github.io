@@ -1,7 +1,8 @@
 
-let USSRAnthem = new Audio('soviet-anthem.mp3');
+const anthem = new Audio('soviet-anthem.mp3');
+
 
 function playAnthem(){
-  USSRAnthem.loop = true;
-  USSRAnthem.play();
+    anthem.loop = true;
+    anthem.play();
 }
