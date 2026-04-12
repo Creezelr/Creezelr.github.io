@@ -1,17 +1,14 @@
 body {
+  background-color: white;
+}
+
+.ball{
   background-color: black;
-  background-image: url('USSRFLAG!.png');
-
-  image-rendering: -webkit-optimize-contrast;
-
   
-  background-position: center;
-  background-repeat: no-repeat;
+  height: 100px;
+  width: 100px;
 
-  text-align: center;
+  position: fixed;
 
-  background-attachment: fixed;
-
-  min-height: 100vh;
-  margin: 0;
+  pointer-events: none
 }
