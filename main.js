@@ -1,8 +1,8 @@
 
 const ball = document.getElementById('ball');
 
-ball.style.left = 50px;
-ball.style.right = 75px;
+ball.style.left = '50px';
+ball.style.right = '75px';
 
 
 /*window.addEventListener('mousemove', (bruv) => {
