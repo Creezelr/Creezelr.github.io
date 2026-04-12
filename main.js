@@ -1,10 +1,10 @@
 
 const ball = document.getElementById('ball');
 
-window.addEventListener('mousemove', (e) => {
+window.addEventListener('mousemove', (bruv) => {
 
-  const x = e.clientX;
-  const y = e.clientY;
+  const x = bruv.clientX;
+  const y = bruv.clientY;
   
 
   ball.style.left = x + 'px';
