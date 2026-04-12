@@ -1,7 +1,11 @@
 
 const ball = document.getElementById('ball');
 
-window.addEventListener('mousemove', (bruv) => {
+ball.style.left = 50px;
+ball.style.right = 75px;
+
+
+/*window.addEventListener('mousemove', (bruv) => {
 
   const x = bruv.clientX;
   const y = bruv.clientY;
@@ -12,4 +16,4 @@ window.addEventListener('mousemove', (bruv) => {
   
 
   ball.style.transform = 'translate(-50%, -50%)'; 
-});
+});*/
